@@ -11,7 +11,7 @@ if __name__ == "__main__":
         print("⌛")
         wav_to_haps(sys.argv[1], sys.argv[2])
 
-# TO DOs
+# TO DOs 
 # pour les basses il faut faire un traitement pour éviter un buzz continue
 # Pour les drums il faut cut à 0 plus haut ~1.3 peut-être (à testé)
 ## Il faut également vérifier qu'un transient est plus haut que la melody sinon ça se soustrait ? Peut-être que c'est juste dans le rendu graphique (qui sait)
